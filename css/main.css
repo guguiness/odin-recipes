@@ -6,9 +6,12 @@
 }
 
 .main-title {
-    text-align: center;
     font-size: 40px;
+}
+
+.title {
     color: #3a405a;
+    text-align: center;
 }
 
 .recipes-list {
