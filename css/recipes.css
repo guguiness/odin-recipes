@@ -9,12 +9,32 @@ h2 {
     width: 40%;
 }
 
+img, figure {
+    display: inline-block;
+}
+
 .container {
     display: flex;
-    border: solid red 2px;
+    flex-direction: row;
+    justify-content: center;
+    border: solid pink 2px;
+    /* height: 200px; */
+}
+
+.ingred-section, .steps-section {
+    height: auto;
+    width: 30%;
+}
+
+.ingred-section {
+    border: solid green 2px;
 }
 
 img {
     height: auto;
     width: 500px;
+}
+
+.steps-section {
+    border: solid red 2px;
 }
