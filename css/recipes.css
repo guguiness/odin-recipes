@@ -8,6 +8,7 @@ h2 {
 }  
 
 .container {
+    margin-top: 75px;
     display: flex;
     flex-direction: row;
 }
@@ -19,6 +20,11 @@ h2 {
 
 img, figure {
     display: inline-block;
+}
+
+img {
+    height: auto;
+    width: 500px;
 }
 
 .texts-section {
@@ -34,15 +40,14 @@ img, figure {
     margin-top: 50px;
 }
 
-img {
-    height: auto;
-    width: 500px;
-}
-
 .steps-section ol li, .ingred-section ul li {
     line-height: 28px;
 }
 
 .steps-section ol li {
     margin: 8px;
+}
+
+footer {
+    text-align: center;
 }
