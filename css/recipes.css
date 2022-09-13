@@ -1,20 +1,48 @@
+* {
+    background-color: #F1F1F1;
+}
+
 h2 {
     font-size: 24px;
     text-decoration: underline;
 }  
 
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
 .img-section {
     display: block;
-    border: solid black 2px;
     width: 40%;
 }
 
-.container {
+img, figure {
+    display: inline-block;
+}
+
+.texts-section {
     display: flex;
-    border: solid red 2px;
+    flex-direction: column;
+}
+
+.ingred-section, .steps-section {
+    height: auto;
+}
+
+.ingred-section {
+    margin-top: 50px;
 }
 
 img {
     height: auto;
     width: 500px;
+}
+
+.steps-section ol li, .ingred-section ul li {
+    line-height: 28px;
+}
+
+.steps-section ol li {
+    margin: 8px;
 }
