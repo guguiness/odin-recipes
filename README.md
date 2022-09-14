@@ -12,3 +12,9 @@ There are three recipes in the project:
 - Apple Pie;
 - Eggs Benedict Casserole;
 - Pizza.
+
+## Responsiveness
+The pages of the website, currently, are not responsive.
+
+## Access
+The website can be accessed via the following link: https://guguiness.github.io/odin-recipes/
